@@ -1,0 +1,180 @@
+body{
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+background-image: url(../img/wood.png);
+}
+	.board{
+		margin:0 auto;
+		margin-top:10px;
+		margin-bottom:10px;
+		position:relative;
+		width:722px;
+		height:640px;
+		}
+	ul{
+		list-style:none;
+		}
+		
+	.one{
+		position:absolute;		
+		list-style:none;
+		}
+		
+		.one li:nth-child(odd){	
+		background-color:#808e96;	
+		width:80px;
+		height:80px;
+		}
+		
+		.one li:nth-child(even){
+		background-color:#0c0d17;	
+		width:80px;
+		height:80px;
+		}
+		
+	.two{
+		position:absolute;		
+		list-style:none;
+		left:80px;
+		}
+		
+		.two li:nth-child(odd){	
+		background-color:#0c0d17;	
+		width:80px;
+		height:80px;
+		}
+		
+		.two li:nth-child(even){
+		background-color:#808e96;	
+		width:80px;
+		height:80px;
+		}	
+			
+		.three{
+		position:absolute;		
+		list-style:none;
+		left:160px;
+		}
+		
+		.three li:nth-child(odd){	
+		background-color:#808e96;	
+		width:80px;
+		height:80px;
+		}
+		
+		.three li:nth-child(even){
+		background-color:#0c0d17;	
+		width:80px;
+		height:80px;
+		}
+		
+	.four{
+		position:absolute;		
+		list-style:none;
+		left:240px;
+		}
+		
+		.four li:nth-child(odd){	
+		background-color:#0c0d17;	
+		width:80px;
+		height:80px;
+		}
+		
+		.four li:nth-child(even){
+		background-color:#808e96;	
+		width:80px;
+		height:80px;
+		}	
+			.five{
+		position:absolute;		
+		list-style:none;
+		left:320px;
+		}
+		
+		.five li:nth-child(odd){	
+		background-color:#808e96;	
+		width:80px;
+		height:80px;
+		}
+		
+		.five li:nth-child(even){
+		background-color:#0c0d17;	
+		width:80px;
+		height:80px;
+		}
+		
+	.six{
+		position:absolute;		
+		list-style:none;
+		left:400px;
+		}
+		
+		.six li:nth-child(odd){	
+		background-color:#0c0d17;	
+		width:80px;
+		height:80px;
+		}
+		
+		.six li:nth-child(even){
+		background-color:#808e96;	
+		width:80px;
+		height:80px;
+		}	
+			
+		.seven{
+		position:absolute;		
+		list-style:none;
+		left:480px;
+		}
+		
+		.seven li:nth-child(odd){	
+		background-color:#808e96;	
+		width:80px;
+		height:80px;
+		}
+		
+		.seven li:nth-child(even){
+		background-color:#0c0d17;	
+		width:80px;
+		height:80px;
+		}
+		
+	.eight{
+		position:absolute;		
+		list-style:none;
+		left:560px;
+		}
+		
+		.eight li:nth-child(odd){	
+		background-color:#0c0d17;	
+		width:80px;
+		height:80px;
+		}
+		
+		.eight li:nth-child(even){
+		background-color:#808e96;	
+		width:80px;
+		height:80px;
+		}	
+		
+.white{
+font-size:60px;
+color:#accaf2;
+margin:12px;
+box-sizing:border-box;
+}	
+
+
+.black{
+font-size:60px;
+color:#172d3f;
+margin:12px;
+box-sizing:border-box;
+}	
+
+.zoom{
+	zoom: 0.9; 
+}
+
